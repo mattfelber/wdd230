@@ -27,11 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
         main.style.color = "#fff";
         header.style.background = "#333";
         footer.style.background = "#333";
+		
         if (quoteContainer) {
             quoteContainer.style.background = "#444";
             quoteContainer.style.color = "#fff";
         }
-
+		
     }
 
     function setLightModeStyles() {
@@ -41,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         main.style.color = "#000";
         header.style.background = "#eee";
         footer.style.background = "#eee";
+		
         if (quoteContainer) {
             quoteContainer.style.background = "#eee";
             quoteContainer.style.color = "#000";
